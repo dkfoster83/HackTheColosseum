@@ -12,6 +12,7 @@
   padding-right: 1vw;
   padding-left: 6vw;
   padding-top: 3vh;
+  margin-left: 10px;
   position: relative;
   isolation: isolate;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
@@ -24,7 +25,8 @@
   z-index: -2;
   inset: 0;
   opacity: 0.1;
-  background-image: url("/images/topography.svg");
+  /* background-image: url("/images/topography.svg"); */
+  background-color: rgb(216, 206, 198);
 }
 @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
   .parent_hero::after {
@@ -46,7 +48,7 @@
   padding: 0;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     gap: 2vw;
   }
@@ -69,17 +71,17 @@
   font-family: poppins;
   font-weight: 500;
   color: black;
-  border: 1px solid grey;
-  font-size: 1.1vw;
-  padding: 0vh 0.4vw;
-  border-radius: 1vw;
-  margin-bottom: 2vh;
+  border: 2px solid grey;
+  font-size: 1.4vw;
+  padding: .1vh 0.8vw;
+  border-radius: 1.2vw;
+  margin-bottom: .5vh;
   margin-top: 5vh;
   font-weight: 600;
   display: flex;
-  gap: 0.3vw;
+  gap: 0.2vw;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     padding: 0.2vh 1vw;
     margin-top: 3vh;
     text-align: center;
@@ -87,10 +89,13 @@
     gap: 1vw;
   }
 }
+
 .tag > div {
   display: flex;
   align-items: flex-start;
+  justify-content: flex-start;
 }
+
 .tag > div > span {
   font-size: 0.7vw;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
@@ -165,8 +170,9 @@
 
 .br {
   display: block;
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
+
 .parent_hero .title1 .hackathon {
   position: relative;
   font-family: bernie;
@@ -178,8 +184,9 @@
 
 .title1 #gladiator-bear {
   position: relative;
-  left: 510px;
-  bottom: 193px;
+  left: 610px;
+  margin-bottom: 0;
+  bottom: 215px;
 }
 
 .parent_hero .title1 .hackathon::after {
@@ -196,7 +203,7 @@
 
 @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
   .parent_hero .title1 .hackathon::after {
-    height: 2vh;
+    height: 1vh;
   }
 }
 @keyframes line {
@@ -205,7 +212,7 @@
   }
 }
 
-.parent_hero .title1 .description {
+.parent_hero .description p {
   font-size: 1.2vw;
   font-weight: 500;
   font-family: "arial";
@@ -349,6 +356,7 @@
     margin-bottom: 2vh;
   }
 }
+
 .countdown .day,
 .hours,
 .minutes,
@@ -376,7 +384,7 @@
     margin-top: 5vh;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 0vh 5vw;
+    gap: 0vh 3vw;
   }
 }
 .animated-div {
@@ -414,17 +422,24 @@
     width: 40px;
   }
 }
+
+.right_side {
+  margin-right: 1vw;
+}
+
 .right_side .col1 {
   position: relative;
+  margin-top: 6.5vh;
+  bottom: 80px;
   padding: 1vw;
-  margin-top: 9vh;
+  width: 400px;
   height: fit-content;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 1vw;
-  background-color: #4d4855;
-  background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
-  background-image: url("/images/planet2.webp");
+  background-color: #423c4b;
+  background-image: linear-gradient(147deg, #424242 0%, #000000 74%);
+  /* background-image: url("/images/planet2.webp"); */
   isolation: isolate;
   transition: all 0.1s linear;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
@@ -433,6 +448,11 @@
     border-radius: 3vw;
     width: 90vw;
   }
+}
+
+#diff-col1 
+{
+  width: fit-content;
 }
 
 .col1:hover {
@@ -462,7 +482,7 @@
   z-index: -1;
   backdrop-filter: blur(1.5px);
   border-radius: 1vw;
-  box-shadow: 0vw 15vh 1vw 1vw black;
+  /* box-shadow: 0vw 15vh 1vw 1vw black; */
 }
 @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
   .right_side .col1::after {
@@ -476,12 +496,12 @@
   }
 }
 .right_side .col1 .text {
-  color: #d9e4f5;
-  background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+  background-image: linear-gradient(315deg, #21130b 0%, #322114 74%);
   background-clip: text;
   font-family: poppins;
   font-weight: 900;
   font-size: 1.5vw;
+  color: white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border-bottom: 2px dotted white;
@@ -495,7 +515,7 @@
 }
 .right_side .col1 .text > div {
   display: flex;
-  gap: 0.3vw;
+  gap: .5vw;
 }
 .right_side .col1 .text > div > div {
   display: flex;
@@ -541,14 +561,15 @@
   }
 }
 
-.right_side .col2 {
+/* .right_side .col2 {
   position: relative;
   height: fit-content;
+  width: 500px;
   padding: 1vw;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 1vw;
-  background-color: #4d4855;
+  background-color: #e7e3ec;
   background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
   background-image: url("/images/light.webp");
   isolation: isolate;
@@ -559,7 +580,7 @@
     padding: 5vw;
     border-radius: 5vw;
   }
-}
+} */
 
 .right_side .col2::after {
   content: "";
@@ -624,8 +645,8 @@
 }
 
 .right_side .col3 {
-  /* margin-top: 1vh; */
   position: relative;
+  bottom: 70px;
   height: fit-content;
   padding: 1vw;
   background-repeat: no-repeat;
@@ -666,9 +687,9 @@
   }
 }
 .right_side .col3 .text7 {
-  color: purple;
+  color: rgb(205, 25, 15);
   text-transform: uppercase;
-  font-family: exo;
+  font-family: poppins;
   font-weight: 900;
   text-align: center;
   font-size: 1.3vw;
@@ -709,9 +730,10 @@
 }
 
 .right_side .col4 {
-  margin-top: -9vh;
+  margin-top: -6.5vh;
   position: relative;
-  height: fit-content;
+  height: 100px;
+  width: 300px;
   padding: 1vw;
   background-repeat: no-repeat;
   background-size: cover;

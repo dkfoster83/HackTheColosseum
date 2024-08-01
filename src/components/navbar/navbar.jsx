@@ -25,9 +25,9 @@ const Navbar = () => {
       action: "click",
       label: "Youtube",
     });
-
     window.open("https://discord.gg/w77zzjVkEB?event=1141717757382107197");
   };
+
   const handleRegisterClick = () => {
     ReactGA.event({
       category: "Button",
@@ -36,6 +36,7 @@ const Navbar = () => {
     });
     window.open("https://forms.gle/mqHSf1kpoTUiMURH6");
   };
+
   const handleScroll = (id) => {
     ReactGA.event({
       category: "Button",
@@ -49,6 +50,7 @@ const Navbar = () => {
       document.querySelector(id).scrollIntoView({ behaviour: "smooth" });
     }, 200);
   };
+
   if (window.location.hash) handleScroll(window.location.hash);
 
   const handleNavMenuClick = () => {
@@ -63,6 +65,7 @@ const Navbar = () => {
     const NavDropVisibility = document.querySelector(".navbar-open");
     NavDropVisibility.classList.toggle("navbar-close-mobile");
   };
+
   return (
     <React.Fragment>
       <div className="parent">
@@ -129,20 +132,20 @@ const Navbar = () => {
               className="title-mobile"
               onClick={() => window.open("/", "_self")}
             >
-              <img src="/images/diamond.webp" width="30vw" alt="logo" />
+              <img src="/images/bearicon.png" width="22vw" alt="logo" />
               Hackathon
             </div>
-            <div className="last-mobile">
-              <h2 className="register-mobile">
-                <a href="https://forms.gle/mqHSf1kpoTUiMURH6" target="_blank">
-                  register
-                </a>
-              </h2>
-            </div>
-            <Grid
-              className="navbar-menu-mobile "
-              onClick={handleNavMenuClick}
-            />
+              <div className="last-mobile">
+                <h2 className="register-mobile">
+                  <a href="https://forms.gle/mqHSf1kpoTUiMURH6" target="_blank">
+                    register
+                  </a>
+                </h2>
+              </div>
+              <Grid
+                className="navbar-menu-mobile "
+                onClick={handleNavMenuClick}
+              />
           </div>
           <div className="navbar-open navbar-close-mobile">
             <ul>

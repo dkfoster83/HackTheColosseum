@@ -173,6 +173,11 @@
   margin-right: 10px;
 }
 
+.register-mobile a {
+  font-family: joystix;
+  font-size: 3vw;
+}
+
 .register:hover {
   border-color: rgb(248, 50, 50);
 }
@@ -209,7 +214,7 @@
   padding: 0vh 2vw;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   height: 5vh;
   transition: all 0.3s linear;
 }
@@ -220,7 +225,7 @@
   display: flex;
   gap: 1vw;
   align-items: flex-end;
-  font-family: mars;
+  font-family: joystix;
   font-weight: bold;
   font-size: 4vw;
   cursor: pointer;
@@ -247,6 +252,11 @@
   font-size: 3.5vw;
   animation: fadeNav 0.5s ease-in-out forwards;
 }
+
+.navbar-close-mobile ul li{
+  font-family: joystix;
+}
+
 @keyframes fadeNav {
   0% {
     transform: translateY(-2vh);
@@ -264,7 +274,7 @@
   width: 0;
   left: 0;
   bottom: 0;
-  background-color: rgb(190, 52, 176);
+  background-color: #F04645;
 }
 .navbar-open ul li p:hover {
   scale: 1.1;
@@ -276,8 +286,9 @@
 .register-mobile {
   position: relative;
   font-family: joystix;
-  font-size: 4vw;
-  padding: 0vh 1vw;
+  font-size: 3vw;
+  padding: .4vh 1vw;
+
   border: 2px solid slategray;
   border-radius: 1vw;
   cursor: pointer;

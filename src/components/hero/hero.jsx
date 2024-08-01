@@ -92,21 +92,22 @@ const hero = () => {
     <React.Fragment>
       <div className="parent_hero">
         <div className=" tag-hero-mobile">
+          {/*
           <img
             src="/images/srm.webp"
             alt="srm logo"
             width="40vw"
             className="hero-srm-logo"
-          />
+          /> */}
           <div className="tag">
             Celebrating Howard County coders
           </div>
-          <img
+          {/* <img
             src="/images/srmvec.webp"
             alt="srmvec logo"
             width="60vw"
             className="hero-srmvec-logo"
-          />
+          /> */}
         </div>
 
         {/* ----------------------- Page 1 ------------------------- */}
@@ -115,7 +116,9 @@ const hero = () => {
             <div className="curve"></div>
 
             <div className="title1">
-              <span className="hackathon"> {"Hack The Colosseum"}</span>
+              <span className="hackathon">
+                {"Hack The Colosseum"}
+              </span>
               <br />
               <img
                 src="/images/bear.png"
@@ -123,10 +126,13 @@ const hero = () => {
                 width="100px"
                 id="gladiator-bear"
               />
-              <p className="description">
-                National <span> Level 24 hour Hackathon </span>
-                showcasing innovative solutions
-                <br /> and tech talents from across the country
+            </div>
+
+            <div className="description">
+              <p>
+                  National <span> Level 24 hour Hackathon </span>
+                  showcasing innovative solutions
+                  <br /> and tech talents from across the country
               </p>
             </div>
 
@@ -167,13 +173,13 @@ const hero = () => {
           <div className="right_side">
             {/* -------------------------- Column 1 * ---------------------------------- */}
 
-            <div className="col1 animated-div">
+            <div className="col1 animated-div" id="diff-col1">
               <h3 className="text">
                 <div>
                   <div>
-                    <div> 21</div> <div> th</div>{" "}
+                    <div> 18</div> <div> th</div>{" "}
                   </div>{" "}
-                  September
+                  October
                 </div>
                 <Calender className="calender-icon" />
               </h3>
@@ -188,7 +194,25 @@ const hero = () => {
               </p>
             </div>
             {/* -------------------------- Column 2 * ---------------------------------- */}
-            <div className="col2 animated-div">
+
+            <div className="col1 animated-div">
+              <h3 className="text">
+                Information Details
+                <Calender className="calender-icon" />
+              </h3>
+              <p
+                className="text2"
+                onClick={() => handleCardClicks("/guidelines")}
+              >
+                About <ArrowRightWhite className="arrow-right-icon" />
+              </p>
+              <p className="text3" onClick={() => handleCardClicks("/events")}>
+                Judges <ArrowRightWhite className="arrow-right-icon" />
+              </p>
+            </div>
+
+
+            {/* <div className="col2 animated-div">
               <h3 className="text4">
                 Information Details <Info className="info-icon" />
               </h3>
@@ -200,7 +224,7 @@ const hero = () => {
                 Judge Panel
                 <ArrowRightWhite className="arrow-right-icon" />
               </p>
-            </div>
+            </div> */}
             {/* -------------------------- Column 3 * ---------------------------------- */}
             <div className="col3 animated-div">
               <div className="flex justify-items-start">
@@ -225,7 +249,7 @@ const hero = () => {
               </h3>
               <div className="flex flex-col ">
                 <p className="text-white pt-[2vh] text-[1vw] venue-text-mobile">
-                  SRM Valliammai Engineering College
+                  Miller Branch Library
                 </p>
                 {/* <p className="text-white  text-[0.8vw] ">
                   National Highway 45, Potheri, SRM Nagar, Kattankulathur, Tamil
@@ -235,7 +259,7 @@ const hero = () => {
               </div>
             </div>
             {/* -------------------------- Column 5  ---------------------------------- */}
-            <div className="col5 "></div>
+            <div className="col5"></div>
             {/* -------------------------- Column 6  ---------------------------------- */}
             <div className="col6 animated-div">
               <h3 className="text13">
@@ -243,8 +267,8 @@ const hero = () => {
                 <div className="flex justify-center items-center gap-1"></div>
               </h3>
               <div className="flex items-start justify-between flex-col">
-                <p className="text14">SRMVEC CSI Student Branch </p>
-                <p className="text15">Whitehatians Cyber Club - VEC</p>
+                <p className="text14">Glenelg High School </p>
+                <p className="text15">Competitive Programming Club</p>
                 <div className="round2"></div>
               </div>
             </div>
