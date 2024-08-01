@@ -197,7 +197,7 @@ const hero = () => {
 
             <div className="col1 animated-div">
               <h3 className="text">
-                Information Details
+                <div>Information Details</div>
                 <Calender className="calender-icon" />
               </h3>
               <p

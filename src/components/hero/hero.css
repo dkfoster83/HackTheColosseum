@@ -424,7 +424,7 @@
 }
 
 .right_side {
-  margin-right: 1vw;
+  margin-right: .3vw;
 }
 
 .right_side .col1 {
@@ -437,8 +437,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 1vw;
-  background-color: #423c4b;
-  background-image: linear-gradient(147deg, #424242 0%, #000000 74%);
+  background-image: linear-gradient(147deg, #302e2b 0%, #180D02 74%);
   /* background-image: url("/images/planet2.webp"); */
   isolation: isolate;
   transition: all 0.1s linear;
@@ -446,8 +445,12 @@
     margin: 0;
     padding: 2vh 5vw;
     border-radius: 3vw;
-    width: 90vw;
+    width: 9fvw;
   }
+}
+
+.col1 text {
+  font-size: 21rem;
 }
 
 #diff-col1 
@@ -646,7 +649,7 @@
 
 .right_side .col3 {
   position: relative;
-  bottom: 70px;
+  bottom: 100px;
   height: fit-content;
   padding: 1vw;
   background-repeat: no-repeat;
@@ -730,10 +733,10 @@
 }
 
 .right_side .col4 {
-  margin-top: -6.5vh;
+  margin-top: -100px;
   position: relative;
   height: 100px;
-  width: 300px;
+  width: 100%;
   padding: 1vw;
   background-repeat: no-repeat;
   background-size: cover;
@@ -808,9 +811,10 @@
 }
 
 .right_side .col6 {
-  margin-top: -18vh;
+  margin-top: 0px;
   position: relative;
   height: fit-content;
+  width: 100%;
   padding: 1vw;
   background-repeat: no-repeat;
   background-size: cover;
