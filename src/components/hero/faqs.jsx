@@ -40,7 +40,7 @@ const faqs = () => {
     <React.Fragment>
       <div id="faqs" className="parent-faqs">
         <h1 className="faqs-title">
-          <img src="/images/rrr.webp" alt="arrow-logo" />
+          <img src="images/bearicon.png" alt="arrow-logo" />
           FAQs
         </h1>
 
@@ -63,7 +63,7 @@ const faqs = () => {
 
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
-              What is “Hack-A-Tank”?
+              What is “Hack-The-Colosseum?
               <ChevronRightIcon
                 style={styles.container}
                 className="faqs-arrow"
@@ -94,7 +94,7 @@ const faqs = () => {
 
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
-              How much is the registration fee?
+              Is there a registration free
               <ChevronRightIcon
                 style={styles.container}
                 className="faqs-arrow"
@@ -146,7 +146,7 @@ const faqs = () => {
           </div>
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
-              What is the prize money of the winning team?
+              What prizes do the winning teams receive?
               <ChevronRightIcon
                 style={styles.container}
                 className="faqs-arrow"
@@ -158,7 +158,7 @@ const faqs = () => {
           </div>
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
-              What is the team size to participate in the Hack-A-Tank?
+              What is the team size to participate in the Hack-The-Colosseum?
               <ChevronRightIcon
                 style={styles.container}
                 className="faqs-arrow"
@@ -171,7 +171,7 @@ const faqs = () => {
           </div>
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
-              What are the prerequisites considered for registering?
+              What food and drink options will be available?
               <ChevronRightIcon
                 style={styles.container}
                 className="faqs-arrow"

@@ -100,7 +100,7 @@ const hero = () => {
             className="hero-srm-logo"
           /> */}
           <div className="tag">
-            Celebrating Howard County coders
+            Celebrating DMV coders
           </div>
           {/* <img
             src="/images/srmvec.webp"
@@ -130,9 +130,11 @@ const hero = () => {
 
             <div className="description">
               <p>
-                  National <span className="bold-text"> Level 24 hour Hackathon </span>
-                  showcasing innovative solutions
-                  <br /> and tech talents from across the country
+                The Glenelg High School Competitive Programming Club is excited to introduce its up-and-coming hybrid hackathon: <span className="bold-text">Hack the Colosseum</span>, sponsored by Stansberry Research.
+              </p>
+              <br/>
+              <p>
+                The hackathon will be hosted at the Miller Branch Library and online on Devpost.  Prepare for a day filled with workshops, fun activities, and hacking!
               </p>
             </div>
 

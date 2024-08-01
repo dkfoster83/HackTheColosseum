@@ -10,6 +10,11 @@
   src: url(./fonts/SevenSegment.ttf);
 }
 
+@font-face {
+  font-family: roboto;
+  src: url(./fonts/Roboto-Medium.ttf);
+}
+
 .parent_hero {
   padding-right: 1vw;
   padding-left: 6vw;
@@ -246,10 +251,14 @@
   margin-bottom: 0px;
 }
 
+.parent_hero .description {
+  width: 38vw;
+}
+
 .parent_hero .description p {
-  font-size: 1.2vw;
-  font-weight: 500;
-  font-family: "arial";
+  font-size: 1.3vw;
+  font-weight: 399;
+  font-family: roboto;
   line-height: normal;
   text-transform: none;
   letter-spacing: 0px;
@@ -270,7 +279,7 @@
 }
 
 .register_now {
-  margin-top: 2vh;
+  margin-top: 4vh;
   position: relative;
   padding: 0.5vh 0.5vw;
   background-color: #180D02;
@@ -467,6 +476,7 @@
 
 .right_side .col1 {
   position: relative;
+  margin-bottom: 0;
   margin-top: 15vh;
   bottom: 80px;
   padding: 1vw;
@@ -856,7 +866,7 @@
 }
 
 .right_side .col6 {
-  margin-top: -44px;
+  margin-top: -90px;
   position: relative;
   bottom: 152px;
   height: fit-content;
