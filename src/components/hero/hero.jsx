@@ -197,7 +197,7 @@ const hero = () => {
 
             <div className="col1 animated-div">
               <h3 className="text">
-                <div>Information Details</div>
+                <p className="text-white">Information Details</p>
                 <Calender className="calender-icon" />
               </h3>
               <p
@@ -247,8 +247,8 @@ const hero = () => {
               <h3 className="text10">
                 Venue <Location className="location-icon" />
               </h3>
-              <div className="flex flex-col ">
-                <p className="text-white pt-[2vh] text-[1vw] venue-text-mobile">
+              <div className="flex flex-col">
+                <p className="text-white pb-[2vh] pt-[2vh] text-[1vw] venue-text-mobile">
                   Miller Branch Library
                 </p>
                 {/* <p className="text-white  text-[0.8vw] ">
