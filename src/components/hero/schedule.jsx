@@ -28,7 +28,7 @@ const schedule = () => {
       <div className="mainSchedule" id="schedule">
         <div className="parent-schedule">
           <div className="schedule-title">
-            <img src="/images/rrr.webp" alt="arrow-logo" />
+            <img src="images/bearicon.png" alt="arrow-logo" />
             Schedule
           </div>
           <div className="timeline" id="timeline">

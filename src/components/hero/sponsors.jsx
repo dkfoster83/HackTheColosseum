@@ -10,19 +10,36 @@ const sponsors = () => {
     <React.Fragment>
       <div className="parent-sponsors">
         <h1 className="sponsors-title">
-          Sponsor
-          <img src="/images/rrr.webp" alt="arrow-logo" />
+          Sponsors
+          <img src="/images/bearicon.png" alt="arrow-logo" />
         </h1>
         <div className="sponsors-container">
           <div className="sponsors-border">
             <div>
-              <img src="/images/hebesec.webp" alt="Hebesec Technologies" />
+              <img src="/images/logo.png" alt="Stansberry Research" />
             </div>
             <div className="sponsors-container-sub">
               <h1 className="sponsor-title">
-                <a href="https://hebesec.com/" target="_blank">
+                <a href="https://stansberryresearch.com/" target="_blank">
                   {" "}
-                  Hebesec Technologies{" "}
+                  Stansberry Research{" "}
+                </a>
+              </h1>
+            </div>{" "}
+            <LaunchLink className="link-launch-icon" />
+          </div>
+        </div>
+
+        <div className="sponsors-container">
+          <div className="sponsors-border">
+            <div>
+              <img src="/images/wolfram.png" alt="Wolfram Alpha" />
+            </div>
+            <div className="sponsors-container-sub">
+              <h1 className="sponsor-title">
+                <a href="https://www.wolframalpha.com/" target="_blank">
+                  {" "}
+                  Wolfram Alpha{" "}
                 </a>
               </h1>
             </div>{" "}

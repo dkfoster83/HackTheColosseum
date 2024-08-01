@@ -37,7 +37,7 @@ const hero = () => {
     seconds: 0,
   });
   const handleCountdown = () => {
-    const countDate = new Date("September 21, 2024 10:00:00").getTime(); //9/21/2024
+    const countDate = new Date("October 18, 2024 10:00:00").getTime(); //9/21/2024
     const now = new Date().getTime();
     const diff = countDate - now;
     {
@@ -130,7 +130,7 @@ const hero = () => {
 
             <div className="description">
               <p>
-                  National <span> Level 24 hour Hackathon </span>
+                  National <span className="bold-text"> Level 24 hour Hackathon </span>
                   showcasing innovative solutions
                   <br /> and tech talents from across the country
               </p>
@@ -249,7 +249,7 @@ const hero = () => {
               </h3>
               <div className="flex flex-col">
                 <p className="text-white pb-[2vh] pt-[2vh] text-[1vw] venue-text-mobile">
-                  Miller Branch Library
+                  Miller Branch - Howard County Library System
                 </p>
                 {/* <p className="text-white  text-[0.8vw] ">
                   National Highway 45, Potheri, SRM Nagar, Kattankulathur, Tamil
