@@ -199,7 +199,9 @@ const hero = () => {
 
             <div className="col1 animated-div">
               <h3 className="text">
-                <p className="text-white">Information Details</p>
+                <div>
+                  Information Details
+                </div>
                 <Calender className="calender-icon" />
               </h3>
               <p
@@ -211,7 +213,7 @@ const hero = () => {
               <p className="text3" onClick={() => handleCardClicks("/events")}>
                 Judges <ArrowRightWhite className="arrow-right-icon" />
               </p>
-            </div>
+            </div> 
 
 
             {/* <div className="col2 animated-div">
