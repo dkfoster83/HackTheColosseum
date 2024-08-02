@@ -44,7 +44,7 @@ const section2 = () => {
                 animationData={animationData}
                 lottieRef={ref}
                 style={{
-                  width: "40vw",
+                  width: "30vw",
                   height: "50vh",
                   scale: "1.3",
                   // background: "red",
@@ -71,12 +71,12 @@ const section2 = () => {
         <div className="parent-vision">
           <div className="vision">
             <div className="about-vision-title " id="agenda-left">
-              <img
+              {/* <img
                 src="/images/target.png"
                 alt="vision-image"
                 width="100px"
                 className="about-vision-image"
-              />
+              /> */}
               Vision
             </div>
             <div className="about-vision-description" id="agenda-right">
@@ -91,12 +91,12 @@ const section2 = () => {
           </div>
           <div className="mission">
             <div className="about-mission-title" id="agenda-right">
-              <img
+              {/* <img
                 src="/images/target.png"
                 alt="mission-image"
                 width={"120px"}
                 className="about-mission-image"
-              />
+              /> */}
               Mission
             </div>
             <div className="about-mission-description" id="agenda-left">

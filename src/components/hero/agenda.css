@@ -197,7 +197,6 @@ background-position:
   position: relative;
   padding: 0vh 3vw;
   padding-bottom: 10vh;
-  border-radius: 10px;
   position: 99;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     padding: 0;
@@ -239,13 +238,13 @@ background-position:
   70px 50px;
 }
 
-.about-vision-image,
+/* .about-vision-image,
 .about-mission-image {
   margin-right: 40px;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     display: none;
   }
-}
+} */
 .vision {
   display: flex;
   align-items: center;
@@ -265,11 +264,12 @@ background-position:
   font-family: bernie;
   font-size: 5vw;
   font-weight: 900;
+  margin-left: 6vw;
   text-transform: uppercase;
   letter-spacing: 10px;
-  background-color: #b91d1d;
-  text-shadow: 3px .1px 0px #f04645;
-  background-image: linear-gradient(326deg, #f86d6d 0%, #e32626 74%);
+  background-color: #18cea9;
+  text-shadow: 3px .1px 0px #18cec8;
+  background-image: linear-gradient(326deg, #24c2b2 0%, #19bfa9 74%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -325,7 +325,7 @@ background-position:
 }
 
 .mission {
-  margin-top: 10vh;
+  margin-top: 5vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -347,7 +347,7 @@ background-position:
    /* background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12'%3E%3Cpath d='M9.8 12 0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z' fill='%239C92AC' fill-opacity='.26' fill-rule='evenodd'/%3E%3C/svg%3E"); */
 }
 .about-mission-title {
-  margin-right: 2vw;
+  margin-right: 6vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -357,7 +357,8 @@ background-position:
   font-size: 5vw;
   font-weight: 900;
   background-color: #a4508b;
-  background-image: linear-gradient(326deg, #24c2b2 0%, #19bfa9 74%);
+  text-shadow: 3px .1px 0px #f32323;
+  background-image: linear-gradient(326deg, #f86d6d 0%, #e32626 74%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
