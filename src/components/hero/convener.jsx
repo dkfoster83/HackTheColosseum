@@ -3,7 +3,7 @@ import "./convener.css";
 const convener = () => {
   return (
     <React.Fragment>
-      <div className="parent-convener">
+      {/* <div className="parent-convener">
         <div className="convener-title">
           <img src="/images/rrr.webp" alt="" className="convener-logo" />
           <h1 className="convener-title-name">Convener</h1>
@@ -23,7 +23,7 @@ const convener = () => {
             </h1>
           </div>
         </div>
-      </div>
+      </div> */}
     </React.Fragment>
   );
 };

@@ -25,171 +25,81 @@ const contact = () => {
   };
   return (
     <React.Fragment>
-      <div id="contact" className="parent-contact">
-        <div className="contact-title">
-          <img src="/images/rrr.webp" alt="arrow-logo" />
-          Contacts
-        </div>
-        <div className="parent-container">
-          {/* -----------------------------------------Contact 1 ------------------------------------------- */}
-          <div>
-            <div className="contact-container">
-              <div className="contact-card">
-                <div className="contact-card-front">
-                  <img src="/images/shree.webp" alt="shree - president CSI" />
-                  <div className="contact-card-details">
-                    <h1 className="contact-card-name">Shree N</h1>
-                    <h2 className="contact-card-description">
-                      President - CSI
-                    </h2>
-                    <h3
-                      className="contact-card-options"
-                      onClick={() => handlecontactOptions(".contact-card")}
-                    >
-                      Contact Options{" "}
-                      <KeyboardDoubleArrowRightIcon
-                        style={{
-                          width: "20px",
-                          height: "20px",
-                        }}
-                      />
-                    </h3>
-                  </div>
-                </div>
-                <div className="contact-card-back">
-                  <div className="contact-card-details">
-                    <h1 className="contact-card-name">Shree N</h1>
-                    <h2 className="contact-card-description">
-                      <span
-                        className="contact-card-phone"
-                        onClick={() => {
-                          handleLaunch("contact-card-launch1");
-                          setTimeout(() => {
-                            window.open(
-                              "https://api.whatsapp.com/send?phone=7010373822"
-                            );
-                          }, 2000);
-                        }}
-                      >
-                        <PhoneBluetoothSpeakerIcon
-                          className="phone"
-                          style={{
-                            width: "35px",
-                            height: "35px",
-                          }}
-                        />
-                        +91 7010373822
-                        <span id="contact-card-launch1">
-                          <RocketLaunchIcon
-                            className="rocketLaunch"
-                            style={{
-                              width: "20px",
-                              height: "20px",
-                            }}
-                          />
-                        </span>
-                      </span>
-                      <span
-                        className="contact-card-email"
-                        onClick={() => {
-                          handleLaunch("contact-card-launch2");
-                          setTimeout(() => {
-                            window.open("mailto:shree@hackatank.tech");
-                          }, 2000);
-                        }}
-                      >
-                        <EmailRoundedIcon
-                          className="email"
-                          style={{
-                            width: "35px",
-                            height: "35px",
-                          }}
-                        />
-                        shree@hackatank.tech
-                        <span id="contact-card-launch2">
-                          <RocketLaunchIcon
-                            className="rocketLaunch"
-                            style={{
-                              width: "20px",
-                              height: "20px",
-                            }}
-                          />
-                        </span>
-                      </span>
-                      <span
-                        className="contact-card-instagram"
-                        onClick={() => {
-                          handleLaunch("contact-card-launch3");
-                          setTimeout(() => {
-                            window.open("https://www.instagram.com/mr._.nope");
-                          }, 2000);
-                        }}
-                      >
-                        <InstagramIcon
-                          className="instagram"
-                          style={{
-                            width: "35px",
-                            height: "35px",
-                          }}
-                        />
-                        @mr._.nope
-                        <span id="contact-card-launch3">
-                          <RocketLaunchIcon
-                            className="rocketLaunch"
-                            style={{
-                              width: "20px",
-                              height: "20px",
-                            }}
-                          />
-                        </span>
-                      </span>
-                      <span
-                        className="contact-card-discord"
-                        onClick={() => {
-                          handleLaunch("contact-card-launch4");
-                          setTimeout(() => {
-                            window.open("https://discord.gg/w77zzjVkEB");
-                          }, 2000);
-                        }}
-                      >
-                        <DiscordContact
-                          className="discord"
-                          style={{
-                            width: "35px",
-                            height: "35px",
-                          }}
-                        />
-                        the_creep_27
-                        <span id="contact-card-launch4">
-                          <RocketLaunchIcon
-                            className="rocketLaunch"
-                            style={{
-                              width: "20px",
-                              height: "20px",
-                            }}
-                          />
-                        </span>
-                      </span>
-                    </h2>
-                    <h3
-                      className="contact-card-options"
-                      onClick={() => handlecontactOptions(".contact-card")}
-                    >
-                      <KeyboardDoubleArrowLeftIcon
-                        style={{
-                          width: "20px",
-                          height: "20px",
-                        }}
-                      />
-                      Back
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <div className= "team-section">
+          <div id="faqs" className="parent-faqs">
+            <h1 className="faqs-title">
+              <img src="images/bearicon.png" alt="arrow-logo" />
+              MEET THE TEAM 
+            </h1>
           </div>
+
+            <div className="team-container">
+              <div className= "member-container">
+                <div className="photo-container">
+                  <img src="/images/neurips_headshot.jpg" className="member-img" alt="team member photo"/>
+                </div>
+                  <div className="name-title">
+                    <h3>Kevin Hwang</h3>
+                    <h4>Director</h4>
+                  </div>
+              </div>
+
+              <div className= "member-container">
+                <div className="photo-container">
+                  <img src="/images/Samuel Yoon Headshot.jpg" className="member-img" alt="team member photo"/>
+                </div>
+                  <div className="name-title">
+                    <h3>Samuel Yoon</h3>
+                    <h4>Director</h4>
+                  </div>
+              </div>
+
+              <div className= "member-container">
+                <div className="photo-container">
+                  <img src="/images/IMG_5862.jpeg" className="member-img" alt="team member photo"/>
+                </div>
+                  <div className="name-title">
+                    <h3>Kenny Wang</h3>
+                    <h4>Director</h4>
+                  </div>
+            </div>
+
+              <div className= "member-container">
+                  <div className="photo-container">
+                      <img src="/images/IMG_5033.jpg" className="member-img" alt="team member photo"/>
+                  </div>
+                  <div className="name-title">
+                    <h3>Shreyash Gajam</h3>
+                    <h4>Sponsorships</h4>
+                  </div>
+              </div>
+
+              <div className= "member-container">
+                <div className="photo-container">
+                  <img src="/images/alex.jpg" className="member-img" alt="team member photo"/>
+                </div>
+                  <div className="name-title">
+                    <h3>Alex Chen</h3>
+                    <h4>Sponsorships</h4>
+                  </div>
+              </div>
+
+              <div className= "member-container">
+                  <div className="photo-container">
+                    <img src="/images/alex.jpg" className="member-img" alt="team member photo"/>
+                  </div>
+                  <div className="name-title">
+                    <h3>Annchi Liu</h3>
+                    <h4>Sponsorships</h4>
+                  </div>
+              </div>
+
+
+          </div>
+
+      </div>
           {/* -----------------------------------------Contact 2 ------------------------------------------- */}
-          <div>
+          {/* <div>
             <div className="contact-container">
               <div className="contact-card1">
                 <div className="contact-card-front">
@@ -349,9 +259,7 @@ const contact = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+          </div> */}
     </React.Fragment>
   );
 };

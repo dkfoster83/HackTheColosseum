@@ -16,13 +16,12 @@ const sponsors = () => {
         <div className="sponsors-container">
           <div className="sponsors-border">
             <div>
-              <img src="/images/logo.png" alt="Stansberry Research" />
+              <img src="/images/stansberry-research-logo.png" alt="Stansberry Research" />
             </div>
             <div className="sponsors-container-sub">
               <h1 className="sponsor-title">
                 <a href="https://stansberryresearch.com/" target="_blank">
-                  {" "}
-                  Stansberry Research{" "}
+                  {" "}{" "}
                 </a>
               </h1>
             </div>{" "}
