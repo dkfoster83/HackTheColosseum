@@ -54,27 +54,26 @@ const faqs = () => {
               />
             </h1>
             <p className="faqs-content-description">
-              A hackathon is a social coding event that brings computer
-              programmers and other interested people together to improve upon
-              or build a new software program or a hardware solution for the
-              provided problem statements.
+              A hackathon is a computer science competition
+              where competitors team up to create and pitch a 
+              programming solution to a panel of judges in order
+              to win prizes. The solution is related to a theme
+              and in this case, the theme is finance. 
             </p>
           </div>
 
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
-              What is “Hack-The-Colosseum?
+              What is "Hack The Colosseum?"
               <ChevronRightIcon
                 style={styles.container}
                 className="faqs-arrow"
               />
             </h1>
             <p className="faqs-content-description">
-              Hack-A-Tank is the first 24-hour national-level hackathon
-              organized by the SRM Valliammai engineering college in
-              collaboration with Whitehatians – Club of the Department of Cyber
-              Security and the Student Branch of Computer Society of India (CSI-
-              SB).
+              Hack The Colosseum is a Hackathon organized by
+              the Glenelg Competitive Programming Team, taking
+              inspiration from our school mascot, the Gladiators. 
             </p>
           </div>
 
@@ -87,86 +86,51 @@ const faqs = () => {
               />
             </h1>
             <p className="faqs-content-description">
-              Hack-A-Tank is open to all undergraduate students from all
-              colleges across India.
+              Everyone in high school or below is welcome! No
+              programming experience is needed, we have tons of
+              beginner-friendly events and workshops that teach
+              basic programming. Furthermore, if you need a 
+              computer, just fill out the google form and we will
+              provide you with one for free use during the event. 
             </p>
           </div>
 
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
-              Is there a registration free
+              Is there a registration fee
               <ChevronRightIcon
                 style={styles.container}
                 className="faqs-arrow"
               />
             </h1>
             <p className="faqs-content-description">
-              After the scrutiny process, the organizing committee will release
-              the shortlisted teams for the finale. The selected team must pay a
-              registration fee of Rs. 1000/- per team, which includes GST. It
-              contributes to goodie bags, food, and refreshments served during
-              the event. The registration fee is non-refundable and
-              non-transferable. Teams are advised to complete the registration
-              process as soon as possible to secure their participation in the
-              event. Upon successful completion of the registration, teams will
-              receive further instructions from the organizing committee.
+              Nope! It's completely free. 
             </p>
           </div>
 
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
-              Is the hackathon online or offline?
+              Is the hackathon online or in-person?
               <ChevronRightIcon
                 style={styles.container}
                 className="faqs-arrow"
               />
             </h1>
             <p className="faqs-content-description">
-              The first round will be abstract submission which is completely
-              done in virtual mode. Further upon registration, you will be
-              contacted by our team and given a brief on the process of abstract
-              submission. The shortlisted team should appear physically for the
-              final.
+              We have online and in-person options with a different
+              prize pool for each.
             </p>
           </div>
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
-              How to register for the hackathon?
+              What is the team size to participate?
               <ChevronRightIcon
                 style={styles.container}
                 className="faqs-arrow"
               />
             </h1>
             <p className="faqs-content-description">
-              Click the register button on the home page and you will be
-              directed to the respective Google form. Kindly submit the required
-              details and our organizing team will contact you as soon as
-              possible.
-            </p>
-          </div>
-          <div className="faqs-content" onClick={handleArrow}>
-            <h1 className="faqs-content-title">
-              What prizes do the winning teams receive?
-              <ChevronRightIcon
-                style={styles.container}
-                className="faqs-arrow"
-              />
-            </h1>
-            <p className="faqs-content-description">
-              The event has a prize pool of Rs 25,000 for the winners.
-            </p>
-          </div>
-          <div className="faqs-content" onClick={handleArrow}>
-            <h1 className="faqs-content-title">
-              What is the team size to participate in the Hack-The-Colosseum?
-              <ChevronRightIcon
-                style={styles.container}
-                className="faqs-arrow"
-              />
-            </h1>
-            <p className="faqs-content-description">
-              The teams must have a minimum of 2 members and a maximum of 3
-              members.
+              Teams can have anywhere from 1-3 people!
             </p>
           </div>
           <div className="faqs-content" onClick={handleArrow}>
@@ -178,12 +142,50 @@ const faqs = () => {
               />
             </h1>
             <p className="faqs-content-description">
-              Participants may need to have knowledge and skills in areas such
-              as electronics, programming, data analytics, and IoT technologies,
-              depending on the theme of the hackathon. Participants must need to
-              bring their own laptops, sensors, microcontrollers, and other
-              necessary tools and equipment.
+              Lunch and dinner will be provided in the form 
+              of pizza! We will also provide water as well as
+              various juices and soft drinks. 
             </p>
+          </div>
+          <div className="faqs-content" onClick={handleArrow}>
+            <h1 className="faqs-content-title">
+              What prizes do the winning teams receive?
+              <ChevronRightIcon
+                style={styles.container}
+                className="faqs-arrow"
+              />
+            </h1>
+            <p className="faqs-content-description">
+              We have $10k+ in prizes between our online
+              and in-person tracks!
+            </p>
+
+            <table>
+              <tr>
+                <th>Name</th>
+                <th>Cost</th>
+              </tr>
+              <tr>
+                <th>Gaming Keyboard (x3) [in-person, 1st]</th>
+                <th>$78</th>
+              </tr>
+              <tr>
+                <th>Raspberry Pi (x3) [in-person, 2rd]</th>
+                <th>$105</th>
+              </tr>
+              <tr>
+                <th>Wireless Earbuds (x3) [in-person, 3rd]</th>
+                <th>$48</th>
+              </tr>
+              <tr>
+                <th>$25 Apple Gift Card (x3) [virtual]</th>
+                <th>$75</th>
+              </tr>
+              <tr>
+                <th>$5 Apple Gift Card (x3) [activities award]</th>
+                <th>$15</th>
+              </tr>
+            </table>
           </div>
         </div>
       </div>
